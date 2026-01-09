@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+import sougandhikaLogo from "@/assets/sougandhika-logo.png";
 
 const Footer = () => {
   return (
@@ -6,13 +7,12 @@ const Footer = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-4">
-            <div className="w-16 h-16 border border-primary flex items-center justify-center">
-              <span className="font-display text-lg text-primary">S</span>
-            </div>
-            <span className="font-display text-lg tracking-ultrawide text-muted-foreground">
-              SOUGANDHIKA STUDIOS
-            </span>
+          <div className="flex items-center gap-3">
+            <img 
+              src={sougandhikaLogo} 
+              alt="Sougandhika Studios" 
+              className="h-10 w-auto"
+            />
           </div>
           
           {/* Social Links */}

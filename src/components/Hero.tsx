@@ -1,5 +1,4 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import sougandhikaLogo from "@/assets/sougandhika-logo.png";
 const Hero = () => {
   return <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
@@ -24,25 +23,25 @@ const Hero = () => {
           </p>
           
           {/* Main Title */}
-          <div className="flex items-center justify-center gap-6 mb-8 fade-in-up delay-200">
-            {/* Logo */}
-            <div className="w-20 h-20 border border-primary flex items-center justify-center">
-              <span className="font-display text-xl text-primary">S</span>
-            </div>
-            <div className="text-center">
-              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground text-cinematic mb-2">
-                SOUGANDHIKA
-                <span className="block text-primary">STUDIOS</span>
-              </h1>
-              <p className="font-body text-lg md:text-xl text-silver-muted max-w-xl mx-auto">
-                Where stories become legends. Crafting cinematic experiences from the Yashaverse.
-              </p>
-            </div>
-          </div>
+          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground text-cinematic mb-8 fade-in-up delay-200">
+            SOUGANDHIKA
+            <span className="block text-primary">STUDIOS</span>
+          </h1>
+          
+          {/* Subtitle */}
+          <p className="font-body text-lg md:text-xl text-silver-muted max-w-xl mx-auto mb-12 fade-in-up delay-400">
+            Where stories become legends. Crafting cinematic experiences from the Yashaverse.
+          </p>
           
           {/* CTA */}
           <div className="fade-in-up delay-600">
-            <a href="#/trailers" className="inline-flex items-center gap-4 px-8 py-4 border border-primary/50 hover:border-primary hover:bg-primary/10 transition-all duration-500 group">
+            <a href="#/trailers" className="inline-flex items-center gap-4 px-8 py-4 border border-primary/50 hover:border-primary hover:bg-primary/10 transition-all duration-500 group" onClick={(e) => {
+              e.preventDefault();
+              const element = document.getElementById('trailers');
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
               <span className="font-display text-lg tracking-ultrawide text-foreground">
                 WATCH TRAILER
               </span>

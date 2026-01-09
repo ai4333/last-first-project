@@ -11,11 +11,14 @@ const TrailerSection = () => {
         {/* Section Header */}
         <div className="mb-16 lg:mb-24 text-center">
           <p className="font-body text-sm tracking-megawide text-primary mb-4">
-            LATEST RELEASE
+            OFFICIAL TRAILERS
           </p>
           <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground">
-            WATCH THE TRAILER
+            WATCH THE TRAILERS
           </h2>
+          <p className="font-body text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
+            Experience the cinematic journey through our complete collection of official trailers
+          </p>
         </div>
         
         {/* Video Container */}
@@ -29,11 +32,11 @@ const TrailerSection = () => {
               ))}
             </div>
             
-            {/* YouTube Embed */}
+            {/* YouTube Playlist Embed */}
             <div className="aspect-video bg-noir overflow-hidden relative">
               <iframe
-                src="https://www.youtube.com/embed/aYe0IhVcYHE?rel=0&modestbranding=1&color=white"
-                title="Sougandhika Studios Trailer"
+                src="https://www.youtube.com/embed/videoseries?list=PLC5ux3WMgblTsgFZpojSI0ZFjoFeLijAD&rel=0&modestbranding=1&color=white&cc_load_policy=1&cc_lang_pref=en"
+                title="Sougandhika Studios Trailers Playlist"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

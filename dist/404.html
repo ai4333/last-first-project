@@ -3,29 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Shadow Syndicate Cinema</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafrex/spa-github-pages
-      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-      // ----------------------------------------------------------------------
-      // This script takes the current url and converts the path and query
-      // string of the url into just a query string, and then forwards
-      // the new url to the entry point (index.html).
-      
-      // This script ensures that all requests (e.g. /about, /contact) are
-      // routed to index.html so that the client-side router can handle them.
-      
-      var segmentCount = 0;
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '%26') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '%26') : '') +
-        l.hash
-      );
+    <meta http-equiv="refresh" content="0; url=/last-first-project/" />
+    <script>
+      window.location.href = '/last-first-project/';
     </script>
   </head>
   <body>
+    <p>Redirecting to <a href="/last-first-project/">Shadow Syndicate Cinema</a>...</p>
   </body>
 </html>

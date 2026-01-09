@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" class="dark">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com https://fonts.gstatic.com https://www.youtube.com https://youtube.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.youtube.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src 'self' https://www.youtube.com https://youtube.com;">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sougandhika Studios | Premium Film Production House</title>
@@ -17,16 +18,9 @@
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     <script type="module" crossorigin src="/last-first-project/assets/index-BNQFsT_r.js"></script>
     <link rel="stylesheet" crossorigin href="/last-first-project/assets/index-BUH7p8yq.css">
-    <base href="/last-first-project/">
   </head>
 
   <body>
     <div id="root"></div>
-    <script>
-      // Prevent any direct loading of .tsx files and redirect to main app
-      if (window.location.pathname.includes('.tsx') || window.location.pathname.includes('/src/')) {
-        window.location.href = '/last-first-project/';
-      }
-    </script>
   </body>
 </html>

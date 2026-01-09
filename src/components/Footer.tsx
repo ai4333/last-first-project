@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 border border-primary flex items-center justify-center">
-              <span className="font-display text-sm text-primary">S</span>
+          <div className="flex items-center gap-4">
+            <div className="w-16 h-16 border border-primary flex items-center justify-center">
+              <span className="font-display text-lg text-primary">S</span>
             </div>
-            <span className="font-display text-sm tracking-ultrawide text-muted-foreground">
+            <span className="font-display text-lg tracking-ultrawide text-muted-foreground">
               SOUGANDHIKA STUDIOS
             </span>
           </div>

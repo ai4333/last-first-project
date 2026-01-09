@@ -27,7 +27,7 @@ const Footer = () => {
               Instagram
             </a>
             <a
-              href="https://www.youtube.com/@SougandhikaStudios"
+              href="https://www.youtube.com/@yashwanthpresents"
               target="_blank"
               rel="noopener noreferrer"
               className="font-body text-xs tracking-widest text-muted-foreground hover:text-foreground transition-colors uppercase"

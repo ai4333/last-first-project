@@ -12,21 +12,21 @@ const films = [
     year: "2023",
     genre: "Short Film",
     image: hariyoPhiriyoBackground,
-    youtubeLink: "https://youtube.com/shorts/ddV6BSGbRs4?si=z1-Qub7QOXgAiWKm",
+    youtubeLink: "https://youtu.be/WRc6OMMJbpM",
   },
   {
     title: "ANIRIKSHITA",
     year: "2022",
     genre: "Short Film",
     image: anirikshitaBackground,
-    youtubeLink: "https://youtu.be/vM0Ynao1NoE?si=eTOq0AEWQZya6dzp",
+    youtubeLink: "https://youtu.be/-man6c2SCWQ",
   },
   {
     title: "SADISTIC",
     year: "2022",
     genre: "Short Film",
     image: sadisticBackground,
-    youtubeLink: "https://youtu.be/gQK5Mq-0NkM?si=bCFLLE0oZ6i5hZJs",
+    youtubeLink: "https://youtu.be/EvYnQ30Sj8U",
   },
 ];
 

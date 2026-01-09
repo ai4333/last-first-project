@@ -35,7 +35,7 @@ const Hero = () => {
           
           {/* CTA */}
           <div className="fade-in-up delay-600">
-            <a href="#trailers" className="inline-flex items-center gap-4 px-8 py-4 border border-primary/50 hover:border-primary hover:bg-primary/10 transition-all duration-500 group">
+            <a href="#/trailers" className="inline-flex items-center gap-4 px-8 py-4 border border-primary/50 hover:border-primary hover:bg-primary/10 transition-all duration-500 group">
               <span className="font-display text-lg tracking-ultrawide text-foreground">
                 WATCH TRAILER
               </span>
